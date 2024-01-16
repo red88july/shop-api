@@ -4,7 +4,7 @@ const fileName = './text.txt';
 
 const run = async () => {
     try {
-        await fs.writeFile (fileName, 'Hello World!')
+        await fs.writeFile (fileName, 'Hello JavaScript!')
         console.log('File was saved');
     } catch (err){
         console.error(err);
